@@ -17,11 +17,11 @@ public:
 	Triangle();
 
 	// GETTERS
-	float getHypotenuse;
-	float getAdjacent;
-	float getOpposite;
-	float getArea;
-	float getPerimeter;
+	float getHypotenuse();
+	float getAdjacent();
+	float getOpposite();
+	float getArea();
+	float getPerimeter();
 
 	// SETTERS
 	bool setHypotenuse(float);
