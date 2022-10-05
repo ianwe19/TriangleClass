@@ -12,7 +12,8 @@ Triangle::Triangle() {
 
 // GETTERS
 float Triangle::getHypotenuse() {
-	return this->hypotenuseLength;
+	// return this->hypotenuseLength;
+	return this->adjacentLength * this->oppositeLength;
 }
 
 float Triangle::getAdjacent() {
