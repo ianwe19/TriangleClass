@@ -47,10 +47,32 @@ bool Triangle::setHypotenuse(float hypotenuse) {
 	return accepted;
 }
 
-bool Triangle::setAdjacent(float) {
+bool Triangle::setAdjacent(float adjacent) {
+	bool accepted = false;
 
+	// set adjacent length if valid
+	if (adjacent < 0) {
+		accepted = false;
+	}
+	else {
+		this->adjacentLength = adjacent;
+		accepted = true;
+	}
+
+	return accepted;
 }
 
-bool Triangle::setOpposite(float) {
+bool Triangle::setOpposite(float opposite) {
+	bool accepted = false;
 
+	// set opposite length if valid
+	if (opposite < 0) {
+		accepted = false;
+	}
+	else {
+		this->oppositeLength = opposite;
+		accepted = true;
+	}
+
+	return accepted;
 }
