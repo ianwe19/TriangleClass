@@ -4,6 +4,9 @@
 
 int main()
 {
+    Triangle triangle1;
+
+    
 
     return 0;
 }
