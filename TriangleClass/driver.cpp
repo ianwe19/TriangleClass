@@ -2,7 +2,7 @@
 #include <iomanip> // for std::setw
 #include "specification.h"
 
-const int SPACELENGTH = 10;
+const int SPACELENGTH = 25;
 
 
 void printTriangle(Triangle);
@@ -24,9 +24,9 @@ void printTriangle(Triangle triangle) { // absolutely not a good way of doing th
     std::cout << "  " << std::setw(SPACELENGTH) << "* *\n";
     std::cout << "   " << std::setw(SPACELENGTH) << "*  *\n";
     std::cout << "    " << std::setw(SPACELENGTH) << "*   *\n";
-    std::cout << "     " << std::setw(SPACELENGTH) << "*    *\n";
+    std::cout << "Opposite Side = " << triangle.getOpposite() << std::setw(SPACELENGTH) << "*    *\n";
     std::cout << "      " << std::setw(SPACELENGTH) << "*     *\n";
     std::cout << "       " << std::setw(SPACELENGTH) << "*      *\n";
     std::cout << "        " << std::setw(SPACELENGTH) << "*       *\n";
-    std::cout << "        " << std::setw(SPACELENGTH) << "**********\n";
+    std::cout << "         " << std::setw(SPACELENGTH) << "**********\n";
 }
