@@ -21,7 +21,7 @@ int main()
 }
 
 
-void printTriangle(Triangle triangle) { // absolutely not a good way of doing this
+void printTriangle(Triangle triangle) {
     std::cout << std::fixed << std::setprecision(2) << std::noshowpoint;
 
     std::cout << "" << std::setw(SPACELENGTH) << "*\n";
