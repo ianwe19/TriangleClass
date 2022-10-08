@@ -25,10 +25,12 @@ float Triangle::getOpposite() {
 }
 
 float Triangle::getArea() {
+	this->area = 0.5 * this->adjacentLength * this->oppositeLength;
 	return this->area;
 }
 
 float Triangle::getPerimeter() {
+	this->perimeter = this->adjacentLength + this->oppositeLength + this->getHypotenuse();
 	return this->perimeter;
 }
 
