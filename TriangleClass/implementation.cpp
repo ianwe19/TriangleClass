@@ -4,8 +4,11 @@
 
 // CONSTRUCTOR
 Triangle::Triangle() {
+	this->hypotenuseLength = 0;
 	this->adjacentLength = 0;
 	this->oppositeLength = 0;
+	this->area = 0;
+	this->perimeter = 0;
 }
 
 // GETTERS
