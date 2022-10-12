@@ -31,7 +31,7 @@ void printTriangle(Triangle triangle) {
     std::cout << "    " << std::setw(SPACELENGTH) << "*   *\n";
 
 
-    std::cout << std::setw(18) << "Opposite Side =  " << triangle.getOpposite();
+    std::cout << std::setw(18) << "Opposite Side =  " << triangle.getOpposite(); // add setw
     std::cout << "   *    *";
 
 
