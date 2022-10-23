@@ -24,7 +24,6 @@ public:
 	float getPerimeter();
 
 	// SETTERS
-	bool setHypotenuse(float);
 	bool setAdjacent(float);
 	bool setOpposite(float);
 }; // end - Triangle
