@@ -13,7 +13,7 @@ int main()
     Triangle triangle0;
 
     triangle0.setAdjacent(21.4);
-    triangle0.setOpposite(2.53);
+    triangle0.setOpposite(17.53);
 
     printTriangle(triangle0);
 
