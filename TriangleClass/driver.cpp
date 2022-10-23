@@ -2,8 +2,6 @@
 #include <iomanip> // for std::setw
 #include "specification.h"
 
-const int SPACELENGTH = 25;
-
 
 void printTriangle(Triangle);
 
@@ -24,20 +22,20 @@ int main()
 void printTriangle(Triangle triangle) {
     std::cout << std::fixed << std::setprecision(2) << std::noshowpoint;
 
-    std::cout << "                        " << "*\n";
-    std::cout << "                        " << "**\n";
-    std::cout << "                        " << "* *\n";
-    std::cout << "                        " << "*  *\n";
-    std::cout << "                        " << "*   *\n";
+    std::cout << "                         " << "*\n";
+    std::cout << "                         " << "**\n";
+    std::cout << "                         " << "* *\n";
+    std::cout << "                         " << "*  *\n";
+    std::cout << "                         " << "*   *\n";
 
-    std::cout << "Opposite Side =  " << std::setw(4) << triangle.getOpposite();
+    std::cout << "Opposite Side =  " << std::setw(5) << triangle.getOpposite();
 
     std::cout << "   " << "*    *" << "    Hypotenuse Side = " << triangle.getHypotenuse() << "\n";
 
-    std::cout << "                        " << "*     *\n";
-    std::cout << "                        " << "*      *\n";
-    std::cout << "                        " << "*       *\n";
-    std::cout << "                        " << "**********\n\n";
+    std::cout << "                         " << "*     *\n";
+    std::cout << "                         " << "*      *\n";
+    std::cout << "                         " << "*       *\n";
+    std::cout << "                         " << "**********\n\n";
 
     std::cout << "                       Adjacent Side = " << triangle.getAdjacent() << "\n\n";
 
